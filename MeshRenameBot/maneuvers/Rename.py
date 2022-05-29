@@ -7,7 +7,7 @@ import logging
 import time
 import asyncio
 import os
-from pyrogram.dispather import Message
+from pyrogram.dispatcher import Message
 from ..utils.progress_for_pyro import progress_for_pyrogram
 from ..core.get_config import get_var
 from ..maneuvers.ExecutorManager import ExecutorManager
