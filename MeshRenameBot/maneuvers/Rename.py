@@ -1,5 +1,5 @@
 from MeshRenameBot.database.user_db import UserDB
-from pyrogram.types.messages_and_media.message_entity import MessageEntity
+from pyrogram.types.messages_and_media.message_entity import MessageEntity, Message
 from .Default import DefaultManeuver
 from pyrogram import Client, StopTransmission
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
@@ -7,7 +7,6 @@ import logging
 import time
 import asyncio
 import os
-from pyrogram.dispatcher import Message
 from ..utils.progress_for_pyro import progress_for_pyrogram
 from ..core.get_config import get_var
 from ..maneuvers.ExecutorManager import ExecutorManager
